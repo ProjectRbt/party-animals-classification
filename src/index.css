@@ -4,3 +4,15 @@
     box-sizing: border-box;
     list-style: none;
 }
+
+@font-face {
+    font-family: "MohrRounded-Black";
+    src: local("MohrRounded-Black"), url("/fonts/MohrRounded-Black.woff2") format("woff2");
+    font-weight: 400;
+    font-display: block;
+}
+
+:root {
+    font-family: "MohrRounded-Black", system-ui, sans-serif;
+    /*font-weight: 900; !* 必须与 @font-face 一致 *!*/
+}

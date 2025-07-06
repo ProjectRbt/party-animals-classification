@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="app-root">
         <div className="bg-image">
-            <div>
-                <h1>this is title</h1>
+            <div className="app-content">
+                ROUND UP YOUR CREW,PAWS IN THE AIR,THIS PARTY IS ON!
             </div>
         </div>
     </div>
